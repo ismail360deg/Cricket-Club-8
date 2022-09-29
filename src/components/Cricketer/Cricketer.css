@@ -1,0 +1,50 @@
+.cricketer {
+    width: 280px;
+    height: 450px;
+    border: 1px solid #95A0A7;
+    border-radius: 8px;
+    position: relative;
+}
+
+.cricketer img {
+    background-color: #a9a9a78d;
+    width: 270px;
+    height: 286px;
+    border-radius: 8px;
+    margin: 7px;
+}
+
+.cricketer-info {
+    margin: 0 14px;
+}
+
+.cricketer-name {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    margin-top: 7px;
+}
+
+.btn-cart {
+    width: 100%;
+    background-color: tomato;
+    border-radius: 0 0 8px 8px;
+    border: none;
+    position: absolute;
+    bottom: -1px;
+    transition: .4s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-text {
+    margin-right: 10px;
+}
+
+.btn-cart:hover {
+    background-color: #1C2B35;
+    color: #fff;
+    cursor: pointer;
+}
