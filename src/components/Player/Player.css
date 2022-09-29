@@ -12,7 +12,7 @@
 }
 
 .cart-container {
-    background-color: #054169;
+    background-color: #a9a9a78d;
 }
 
 .cart-container img {
@@ -32,6 +32,83 @@
     margin-top: 8px;
     color: #fff;
 }
+
+.Break-info {
+    background-color: #9accbbdc;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 50px;
+
+}
+
+.Break-info button {
+    margin-right: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    transition: .4s;
+    font-weight: 500;
+
+}
+
+.Break-info button:hover {
+    background-color: tomato;
+    color: #fff;
+    cursor: pointer;
+}
+
+.exercisee-time {
+    display: flex;
+    background-color: #9accbbdc;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-left: 30px;
+    border-radius: 50px;
+}
+
+.exercisee-time h3 {
+    color: black;
+    margin-right: 30px;
+}
+
+.time-seconds {
+    color: #fff !important;
+
+}
+
+.break-time {
+    display: flex;
+    background-color: #9accbbdc;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-left: 30px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.break-time h3 {
+    color: black;
+    margin-right: 49px;
+}
+
+.activity {
+    margin-top: 40px;
+    padding: 15px 80px 15px 80px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    transition: .4s;
+}
+
+.activity:hover {
+    background-color: tomato;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+
 
 
 @media screen and (max-width:400px) {
