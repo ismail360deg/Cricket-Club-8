@@ -54,7 +54,7 @@ const Player = () => {
                     <h3 className='time-seconds'>15 seconds</h3>
                 </div>
 
-
+                <button className='activity'>Activity Completed</button>
                 <h1>seleted item {cart.length}</h1>
             </div>
         </div>
