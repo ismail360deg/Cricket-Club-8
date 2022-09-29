@@ -7,12 +7,12 @@ const Header = () => {
     return (
         <nav className='header'>
             <FontAwesomeIcon className='gym-icon' icon={faDumbbell}></FontAwesomeIcon>
-            <a href="/"><h2>Cricket Club </h2></a>
+            <a href="/cricket"><h2>Cricket Club </h2></a>
             <div className='header-menu'>
-                <a href="/shop">Shop</a>
+                <a href="/shop">Home</a>
                 <a href="/order">Order</a>
-                <a href="/inventory">Inventory</a>
-                <a href="/home">Home</a>
+                <a href="/inventory">Shop</a>
+                <a href="/home">Inventory</a>
             </div>
         </nav >
     );
