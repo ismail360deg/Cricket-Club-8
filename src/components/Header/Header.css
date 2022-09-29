@@ -3,9 +3,24 @@
     background-color: #1C2B35;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     padding-left: 140px;
     padding-right: 140px;
+}
+
+.header-menu {
+    margin-left: 800px;
+}
+
+.gym-icon {
+    color: rgb(105, 179, 226);
+    font-size: 30px;
+}
+
+
+
+.header h1 {
+    color: #fff;
 }
 
 .header a {
