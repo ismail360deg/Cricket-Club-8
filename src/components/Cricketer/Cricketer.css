@@ -11,7 +11,7 @@
     width: 270px;
     height: 286px;
     border-radius: 8px;
-    margin: 7px;
+    margin: 3px;
 }
 
 .cricketer-info {
@@ -37,6 +37,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 15px;
+    left: -1px;
 }
 
 .btn-text {

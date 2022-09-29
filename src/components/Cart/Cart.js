@@ -1,5 +1,5 @@
 
-import './cart.css';
+import './Cart.css';
 import React, { useState } from 'react';
 import logo1 from '../../Nazmul.jpg';
 
@@ -48,16 +48,15 @@ const Cart = (props) => {
             <h2>Exercise Details</h2>
 
             <div className='exercisee-time'>
-
-                <h3>Exercise Time</h3>
-                <h3 className='time-seconds'>{total} hours</h3>
+                <h5>Exercise Time</h5>
+                <h5 className='time-seconds'>{total} hours</h5>
 
             </div>
 
             <div className='break-time'>
 
-                <h3>Break Time</h3>
-                <h3 className='time-seconds'>{time1} {time2} {time3} {time4} miniute</h3>
+                <h5>Break Time</h5>
+                <h5 className='time-seconds'>{time1} {time2} {time3} {time4} miniute</h5>
 
             </div>
 

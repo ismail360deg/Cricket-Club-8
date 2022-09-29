@@ -61,8 +61,8 @@
     display: flex;
     background-color: #9accbbdc;
     padding-bottom: 20px;
-    padding-top: 10px;
-    padding-left: 30px;
+    padding-top: 26px;
+    padding-left: 51px;
     border-radius: 50px;
 }
 
@@ -73,6 +73,7 @@
 
 .time-seconds {
     color: #fff !important;
+    margin-left: 15px;
 
 }
 
@@ -80,7 +81,7 @@
     display: flex;
     background-color: #9accbbdc;
     padding-bottom: 20px;
-    padding-top: 10px;
+    padding-top: 25px;
     padding-left: 30px;
     border-radius: 50px;
     margin-top: 20px;
@@ -115,4 +116,13 @@
     .players-container {
         grid-template-columns: repeat(1, 1fr);
     }
+
+    .player-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.player-container {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
 }

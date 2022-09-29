@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Cart from '../Cart/Cart';
 import Cricketer from '../Cricketer/Cricketer';
+import Blog from '../Blog/Blog'
 import './Player.css'
 
 
@@ -41,6 +42,7 @@ const Player = () => {
 
                 <Cart cart={cart}></Cart>
             </div>
+            <Blog></Blog>
         </div>
     );
 };

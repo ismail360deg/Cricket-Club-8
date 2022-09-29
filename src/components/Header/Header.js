@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <nav className='header'>
             <FontAwesomeIcon className='gym-icon' icon={faDumbbell}></FontAwesomeIcon>
-            <a href="/"><h1>Cricket Club </h1></a>
+            <a href="/"><h2>Cricket Club </h2></a>
             <div className='header-menu'>
                 <a href="/shop">Shop</a>
                 <a href="/order">Order</a>
