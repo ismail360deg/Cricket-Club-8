@@ -17,6 +17,7 @@ const Cricketer = (props) => {
                 <h5 className='btn-text'>Add To Cart</h5>
                 <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon>
             </button>
+
         </div>
     );
 };

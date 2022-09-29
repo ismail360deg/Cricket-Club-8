@@ -16,7 +16,7 @@ const Player = () => {
     }, []);
 
     const handleAddToCart = (player) => {
-        console.log(player)
+        // console.log(player)
         // cart.push(player)
         const newCart = [...cart, player]
         setCart(newCart)
@@ -34,8 +34,11 @@ const Player = () => {
                         handleAddToCart={handleAddToCart}
                     ></Cricketer>)
                 }
+
             </div>
             <div className="cart-container">
+
+
                 <Cart cart={cart}></Cart>
             </div>
         </div>
