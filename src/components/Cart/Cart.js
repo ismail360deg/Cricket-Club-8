@@ -30,7 +30,6 @@ const Cart = (props) => {
     const { time1, time2, time3, time4 } = time;
 
 
-
     return (
         <div className='cart'>
             <img src={logo1} alt="" />
@@ -56,7 +55,14 @@ const Cart = (props) => {
             <div className='break-time'>
 
                 <h5>Break Time</h5>
+
+
+
+
+
                 <h5 className='time-seconds'>{time1} {time2} {time3} {time4} miniute</h5>
+
+
 
             </div>
 
