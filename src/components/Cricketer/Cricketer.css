@@ -51,3 +51,18 @@
     color: #fff;
     cursor: pointer;
 }
+
+
+@media screen and (max-width: 400px) {
+
+    .cricketer img {
+        width: 100%;
+    }
+
+    .cricketer {
+        width: 36%;
+    }
+
+
+
+}
