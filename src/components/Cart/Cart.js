@@ -1,6 +1,6 @@
 
 import './Cart.css';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import logo1 from '../../Nazmul.jpg';
 
 
@@ -26,8 +26,17 @@ const Cart = (props) => {
         )
     }
 
-    const [time, setTime1] = useState({ time1: 0, time2: 0, time3: 0, time4: 0 });
-    const { time1, time2, time3, time4 } = time;
+    const [time, setTime] = useState(0)
+
+    useEffect(() => {
+        let newTime = []
+        const brTime = setTime((time))
+
+
+        if (brTime) {
+            brTime.push(newTime)
+        }
+    }, [time])
 
 
     return (
@@ -38,10 +47,12 @@ const Cart = (props) => {
             <h2>Add A Break</h2>
 
             <div className='Break-info'>
-                <button onClick={() => { setTime1({ ...time, time1: 10, time2: 0, time3: 0, time4: 0 }) }}>10h</button>
-                <button onClick={() => { setTime1({ ...time, time1: 0, time2: 20, time3: 0, time4: 0 }) }}>20h</button>
-                <button onClick={() => { setTime1({ ...time, time1: 0, time2: 0, time3: 30, time4: 0 }) }}>30h</button>
-                <button onClick={() => { setTime1({ ...time, time1: 0, time2: 0, time3: 0, time4: 40 }) }}>40h</button>
+
+                <button onClick={() => (setTime(10))}>10m</button>
+                <button onClick={() => (setTime(20))}>20m</button>
+                <button onClick={() => (setTime(30))}>30m</button>
+                <button onClick={() => (setTime(40))}>40m</button>
+
             </div>
 
             <h2>Exercise Details</h2>
@@ -56,13 +67,7 @@ const Cart = (props) => {
 
                 <h5>Break Time</h5>
 
-
-
-
-
-                <h5 className='time-seconds'>{time1} {time2} {time3} {time4} miniute</h5>
-
-
+                <h5 className='time-seconds'> {time} minute</h5>
 
             </div>
 
